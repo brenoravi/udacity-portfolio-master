@@ -1,0 +1,118 @@
+
+
+body {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+}
+
+
+
+.header-container {
+  margin-top: 70px;
+}
+
+
+.project-link,
+h3,
+h2 {
+  text-align: center;
+}
+
+
+.logo-unicode {
+  margin-left: 5px;
+  font: italic 3em uppercase;
+}
+
+.my-logo {
+  font-size: 22px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+.my-name {
+  font-size: 40px;
+}
+
+
+.text-thin {
+  font-weight: 100;
+}
+
+.text-light {
+  font-weight: 200;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #7d97ad;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+
+.featured-header {
+  margin-bottom: 15px;
+}
+
+
+.modal-text {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+
+.hover-zoom figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.hover-zoom figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.footer-box {
+  margin-top: 15px;
+  width: 100%;
+  height: 75px;
+  background-color: #EBEEF0;
+}
+
+
+#project1,
+#project2,
+#projectSample {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+  .my-logo {
+    text-align: center;
+  }
+
+  .my-name {
+    text-align: center;
+  }
+
+  figcaption {
+    margin-bottom: 10px;
+  }
+}
+
+span>a {
+  margin-bottom: 10px;
+}
